@@ -1,0 +1,86 @@
+/* Siman say game */
+h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    color: #5b3838;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.simon {
+    width: 800px;
+    margin: auto;
+}
+
+.simon-game {
+    display: flex;
+    justify-content: center;
+}
+
+.colorbtn {
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #777;
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+    box-shadow:0px 0px 11px 7px rgba(0, 0, 0, 0.181);
+}
+
+.colorbtn span {
+    position: relative;
+    display: inline-block;
+    transition:0.3s ease-out;
+    z-index: 1;
+    padding: 0px 4px;
+}
+
+.colorbtn span:hover {
+    transform: translateY(-9px);
+    color: #444;
+}
+
+.btn {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 20px;
+    margin: 2rem;
+    transition:0.3s ease-out;
+}
+
+.btn:hover{
+    transform: scale(0.99);
+}
+
+.reset-btn{
+    display: none;
+    position: relative;
+    top: 200px;
+    left: 35%;
+}
+.red {
+    background-color: #d95980;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.pink {
+    background-color: #819ff9;
+}
+
+.white {
+    background-color: #ffffff;
+}
