@@ -11,11 +11,12 @@ let h1 = document.querySelector("h1");
 let body = document.querySelector("body");
 let simon = document.querySelector(".simon-game");
 let resetBtn = document.querySelector(".reset-btn");
-
+let intro = document.querySelector(".instructions")
 
 startBtn.addEventListener("click", function () {
     if (started == false) {
         started = true;
+        intro.style.display = "none";
         levelUp();
     };
 });
